@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Electrical and Electronics Engineering</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+body {
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      margin-top: 50px;
+    }
+
+    .card {
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      background-color: #fff;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .card-text {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .card-link {
+      display: inline-block;
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .card-link:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+    #animation-div {
+      text-align: center;
+      padding: 30px;
+      background-color:#f2f2f2;
+      color: #660808;
+      font-size: 30px;
+      position: relative;
+      animation: text-animation 10s linear infinite;
+    }
+
+    .container3{
+    display: flex;
+    background-color: rgb(11, 6, 50);
+    color: aliceblue;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 25vh;
+  }
+  h2{
+    color: navy;
+  }
+
+    @keyframes text-animation {
+      0% {
+        left: -100%;
+      }
+      100% {
+        left: 100%;
+      }
+    }
+  </style>
+  <body>
+    <div class="preloader"></div>
+    <nav class="navbar sticky-top navbar-expand-lg  " style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+          <a class="navbar-brand" >
+              <img src="/favicon.png" alt="LOGO" width="30" height="24">
+            </a>
+        <a class="navbar-brand mb-0 h1" href="#">RVS COLLEGE OF ENGINEERING AND TECHNOLOGY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-end  ">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="studentcorner.html">Student Corner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Under Graduation Programs
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="CSE.html">Computer Science Engineering (CSE)</a></li>
+                <li><a class="dropdown-item" href="ECE.html">Electronics and Communication Engineering (ECE)</a></li>
+                <li><a class="dropdown-item" href="CE.html">Civil Engineering (CE)</a></li>
+                <li><a class="dropdown-item" href="EEE.html"> Electrical and Electronic Engineering (EEE)</a></li>
+                <li><a class="dropdown-item" href="ME.html">Mechanical Engineering (ME)</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Bachelor's in Computer Application (BCA)</a></li>
+                <li><a class="dropdown-item" href="#">Bachelor's of business Administration (BBA)</a></li>
+              
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Post Graduation Programs
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="PG.html">M.tech in Computer Science Engineering</a></li>
+                <li><a class="dropdown-item" href="PG.html">Masters of Computer Application</a></li>
+             
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Diploma
+              </a>
+              <ul class="dropdown-menu">
+            
+                <li><a class="dropdown-item" href="diploma.html">Civil Engineering(CE)</a></li>
+                <li><a class="dropdown-item" href="diploma.html"> Electrical and Electronic Engineering(EEE)</a></li>
+                <li><a class="dropdown-item" href="diploma.html">Mechanical Engineering(ME)</a></li>
+             
+          
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <section>
+      <div class="item">
+        <img src="https://mcg-qna.s3.amazonaws.com/39847380cd9b416c184da4acfaff61c17638e69a54ff_690x230.jpg" alt="image" width="100%" height="25%" class="img-fluid">
+        <div class="container">
+           <div class="row m-0">
+              <div class="banner-data color-white">
+                 <div class="tp-caption"></div>
+                 <div class="tp-title "></div>
+                 <div class="banner-btn">
+                    <a href="" target="_blank" class="green-btn btn"></a>
+                   <!-- <a href="" class="transparent-btn btn"></a>-->
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+    </section>
+
+
+
+
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" >Undergraduate Courses</li>
+          <li class="breadcrumb-item active" aria-current="page">Electrical and Electronics Engineering</li>
+        </ol>
+      </nav>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <h2 class="card-title"><i class="fas fa-cogs"></i> Facilities</h2>
+                  <p class="card-text">Here you can find information about the facilities available in the ECE department.</p>
+                  <a href="#facilities" class="card-link">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <h2 class="card-title"><i class="fas fa-users"></i> Faculties</h2>
+                  <p class="card-text">Meet our esteemed faculty members who guide and inspire students.</p>
+                  <a href="#faculties" class="card-link">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <h2 class="card-title"><i class="fas fa-book"></i> Student Notes</h2>
+                  <p class="card-text">Access study materials and notes shared by faculty for ECE students.</p>
+                  <a href="#student-notes" class="card-link">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <h2 class="card-title"><i class="fas fa-calendar-alt"></i> Events</h2>
+                  <p class="card-text">Stay updated with the latest events organized by the ECE department.</p>
+                  <a href="#events" class="card-link">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <h2 class="card-title"><i class="fas fa-flask"></i> Research</h2>
+                  <p class="card-text">Explore the ongoing research projects and achievements of our ECE department.</p>
+                  <a href="#research" class="card-link">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <h2 class="card-title"><i class="fas fa-newspaper"></i> News</h2>
+                  <p class="card-text">Stay updated with the latest news and announcements from the ECE department.</p>
+                  <a href="#news" class="card-link">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="animation-div">This page is completely designed using artificial intelligence</div>\
+
+
+
+
+      <section class="copyright dark--blue">
+        <div class="container3">
+            <div class="row">
+                <div class="col-md-4  p-3">
+                    <small>RVS college -  © 2023 All Rights Reserved</small>
+                </div>
+                <div class="col-md-4 text-center p-3 copyright-menu">
+                    <ul id="menu-copyright" class="list-inline"><li id="menu-item-1690" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1690"><a href="about.html">About</a></li>
+      <li id="menu-item-1688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1688"><a href="https://www.rvscollege.ac.in/privacy/">Privacy Policy</a></li>
+      <li id="menu-item-1687" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1687"><a href="https://www.rvscollege.ac.in/term-of-use/">Term Of Use</a></li>
+      <li id="menu-item-1689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1689"><a href="https://www.rvscollege.ac.in/refund-policy/">Refund Policy</a></li>
+      </ul>	
+                 
+                </div>
+                <div class="col-md-4 text-end p-3">
+                    <small>Made with ♥ by Sushant Shekhar</small>
+                </div>
+                
+            </div>
+        </div>
+      </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+   window.onload = function() {
+      var animationDiv = document.getElementById('animation-div');
+      var animationWidth = animationDiv.offsetWidth;
+      var containerWidth = document.documentElement.clientWidth;
+
+      if (animationWidth > containerWidth) {
+        animationDiv.style.animationDuration = (animationWidth / 100) + 's';
+      }
+    };
+    </script>
+  </body>
+</html>

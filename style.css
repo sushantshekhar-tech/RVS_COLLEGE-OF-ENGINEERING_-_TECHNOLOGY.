@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    font-weight: 500;
+    color: blue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container p{
+    text-align: center;
+    color: red;
+
+}
+.container2{
+   
+    text-align: left;
+    height: 10vh;
+    width: 75%;
+    margin-left: 40vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.innercontainer{
+   
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    font-size: 45px;
+    position: relative;
+    left: 71vh;
+    bottom: 8vh;
+    animation-name: texting;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes texting {
+    from {
+      left: 0;
+    }
+    to {
+      left: 72vw;
+    }
+  }
+  .container3{
+    display: flex;
+    background-color: rgb(11, 6, 50);
+    color: aliceblue;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  .preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background: url(Hourglass.gif) no-repeat center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .preloader::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border: 4px solid #fff;
+    border-top: 4px solid #00f;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+
+
+
+
+  @media screen and  (max-width:800px) {
+    .container2{
+        display: none;
+    }
+
+
+  }
