@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Facilities</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="preloader1.css">
+  </head>
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+body {
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      margin-top: 50px;
+    }
+
+    .card {
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      background-color: #fff;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .card-text {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .card-link {
+      display: inline-block;
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .card-link:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+    #animation-div {
+      text-align: center;
+      padding: 30px;
+      background-color:#f2f2f2;
+      color: #660808;
+      font-size: 30px;
+      position: relative;
+      animation: text-animation 10s linear infinite;
+    }
+
+    .container3{
+    display: flex;
+    background-color: rgb(11, 6, 50);
+    color: aliceblue;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50vh;
+  }
+  h2{
+    color: navy;
+  }
+
+    @keyframes text-animation {
+      0% {
+        left: -100%;
+      }
+      100% {
+        left: 100%;
+      }
+    }
+  </style>
+  <body>
+    <div class="preloader"></div>
+    <nav class="navbar sticky-top navbar-expand-lg  " style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+          <a class="navbar-brand" >
+              <img src="/favicon.png" alt="LOGO" width="30" height="24">
+            </a>
+        <a class="navbar-brand mb-0 h1" href="#">RVS COLLEGE OF ENGINEERING AND TECHNOLOGY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-end  ">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="studentcorner.html">Student Corner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Under Graduation Programs
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="CSE.html">Computer Science Engineering (CSE)</a></li>
+                <li><a class="dropdown-item" href="ECE.html">Electronics and Communication Engineering (ECE)</a></li>
+                <li><a class="dropdown-item" href="CE.html">Civil Engineering (CE)</a></li>
+                <li><a class="dropdown-item" href="EEE.html"> Electrical and Electronic Engineering (EEE)</a></li>
+                <li><a class="dropdown-item" href="ME.html">Mechanical Engineering (ME)</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Bachelor's in Computer Application (BCA)</a></li>
+                <li><a class="dropdown-item" href="#">Bachelor's of business Administration (BBA)</a></li>
+              
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Post Graduation Programs
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="PG.html">M.tech in Computer Science Engineering</a></li>
+                <li><a class="dropdown-item" href="PG.html">Masters of Computer Application</a></li>
+             
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Diploma
+              </a>
+              <ul class="dropdown-menu">
+            
+                <li><a class="dropdown-item" href="diploma.html">Civil Engineering(CE)</a></li>
+                <li><a class="dropdown-item" href="diploma.html"> Electrical and Electronic Engineering(EEE)</a></li>
+                <li><a class="dropdown-item" href="diploma.html">Mechanical Engineering(ME)</a></li>
+             
+          
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <section>
+      <div class="item">
+        <img src="https://mcg-qna.s3.amazonaws.com/39847380cd9b416c184da4acfaff61c17638e69a54ff_690x230.jpg" alt="image" width="100%" height="25%" class="img-fluid">
+        <div class="container">
+           <div class="row m-0">
+              <div class="banner-data color-white">
+                 <div class="tp-caption"></div>
+                 <div class="tp-title "></div>
+                 <div class="banner-btn">
+                    <a href="" target="_blank" class="green-btn btn"></a>
+                   <!-- <a href="" class="transparent-btn btn"></a>-->
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+    </section>
+
+
+
+
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item " >Undergraduate Courses</li>
+          <li class="breadcrumb-item " >Electronics & Communication Engineering</li>
+          <li class="breadcrumb-item active" aria-current="page">Facilities</li>
+        </ol>
+      </nav>
+
+
+
+
+      <div class="accordion-item pg-inner-tab">
+        <h2 class="accordion-header" id="heading2">
+           <button class="accordion-button nocollapse" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+              <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+              <h5 class=" blue-color blue-color">LABORATORY : Department of Electronics and Communication Engineering</h5>
+           </button>
+        </h2>
+        <div id="collapse1" class="accordion-collapse nocollapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionExample" >
+                                      <div class="accordion-body">
+              <p></p><p>List of Labs-</p>
+<p>&nbsp;</p>
+<table class="table table-striped">
+<thead>
+<tr>
+<th>S.no</th>
+<th>Name of the Laboratory</th>
+</tr>
+</thead>
+<tbody class="table-content-size">
+<tr>
+<td>1</td>
+<td>Basic Electronics Lab Types of Instrument (Kit/Software):- CRO, Multimeter,Trainer board, Various Electronic Components</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Digital Electronics &amp; Logic Design Types of Instrument (Kit/Software) :- CRO, Kits for various digital circuit, Trainer board</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Electronics Instruments Lab Types of Instrument (Kit/Software) :- Trainer board ,different types of bridge networks,function generators</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Network Analysis Lab Types of Instrument (Kit/Software) :- Resistors, and Capacitors and Inductors</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Electronic Circuits Lab Types of Instrument (Kit/Software) :- Kits for different types of Oscillators and Amplifiers</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Solid State Devices Lab Types of Instrument (Kit/Software) :- Trainer board of BJT, FET, MOSFET</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Linear IC’S &amp; Applications Lab Types of Instrument (Kit/Software) :- Various Linear IC’s</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Electronic Instrumentation Lab Types of Instrument (Kit/Software) :-Different types of sensors</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Communication System I Lab Types of Instrument (Kit/Software) :- Kits for Various Modulating technique for Digital Communication</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Microprocessor Theory Lab Types of Instrument (Kit/Software) :- 8081,8085,8086 based Trainer board and Accessories</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Automatic Control System Lab Types of Instrument (Kit/Software) :- Different types of Control system Kits, Controller Kit P,PD,PID, Position Control System Kit, Synchros Kit</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Communication System II Lab Types of Instrument (Kit/Software) :- Kits for Various Modulating technique for Digital Communication</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Microwave Engineering Lab Types of Instrument (Kit/Software) :- Microwave Bench, Various types of Antennas and Assessories</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Communication Hardware Design Lab Types of Instrument (Kit/Software) :- VSIM, MULTISIM</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Optical Communication Lab Types of Instrument (Kit/Software) :-Kits for Various Communication Techniques using Optical Fibre cable</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Digital Signal Processing Lab Types of Instrument (Kit/Software) :- MATLAB , 30 computers with internet</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Optical Network Lab Types of Instrument (Kit/Software) :- Kits for13 10 and 15 50 Nano meter wavelength, lasers source and various Optical Networking component’s module</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+           </div>
+        </div>
+     </div>
+
+     <br><br>
+
+
+
+
+      <div class="accordion-item pg-inner-tab">
+        <h2 class="accordion-header" id="heading2">
+           <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+              <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+              <h5 class=" blue-color blue-color">COMPUTING FACILITIES : Department of Electronics and Communication Engineering</h5>
+           </button>
+        </h2>
+        <div id="collapse3" class="accordion-collapse  collapse " aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+              <p></p><p>The department provides computing facilities with separate computers to each student. All laboratories are connected to 20Mbps internet connection. This laboratory is specially designed for Electronics &amp; Communication engineering department to facilitate the students to do their mini and major projects inside the campus. It has 30 personal computers. All are networked and well furnished. Projects vary from different software and application software development, design and optimization of new algorithms, audio/video compression software, IoT, Image processing, Machine Learning and network related projects.</p>
+<p></p>
+           </div>
+        </div>
+     </div>
+     <br><br>
+
+
+
+     <div class="accordion-item pg-inner-tab">
+        <h2 class="accordion-header" id="heading2">
+           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+              <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+              <h5 class=" blue-color blue-color">LIBRARY : Department of Electronics and Communication Engineering</h5>
+           </button>
+        </h2>
+        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+              <p></p><div>
+
+<p>In addition to the Central Library Departments have their own Library. This contains important titles and Journals in the respective branches of study. Students and Staff are advised to fully utilize these books, previous year project thesis, Gate materials and Journals for further enhancement of their subject knowledge books and Journals will not be issued any one, but are available only for reference wish in the Departmental HOD and faculty In-charge controls the functionality of department Library.</p>
+<p>&nbsp;</p>
+</div>
+<div>
+<table class="table table-striped">
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Name of the Book</th>
+<th>Name of the Author</th>
+</tr>
+</thead>
+<tbody class="table-content-size">
+<tr>
+<td>1</td>
+<td>Electrical Technology</td>
+<td>B.L. THEREJA</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+           </div>
+        </div>
+     </div>
+
+
+
+
+
+      <section class="copyright dark--blue">
+        <div class="container3">
+            <div class="row">
+                <div class="col-md-4  p-3">
+                    <small>RVS college -  © 2023 All Rights Reserved</small>
+                </div>
+                <div class="col-md-4 text-center p-3 copyright-menu">
+                    <ul id="menu-copyright" class="list-inline"><li id="menu-item-1690" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1690"><a href="about.html">About</a></li>
+      <li id="menu-item-1688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1688"><a href="https://www.rvscollege.ac.in/privacy/">Privacy Policy</a></li>
+      <li id="menu-item-1687" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1687"><a href="https://www.rvscollege.ac.in/term-of-use/">Term Of Use</a></li>
+      <li id="menu-item-1689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1689"><a href="https://www.rvscollege.ac.in/refund-policy/">Refund Policy</a></li>
+      </ul>	
+                 
+                </div>
+                <div class="col-md-4 text-end p-3">
+                    <small>Made with ♥ by Sushant Shekhar</small>
+                </div>
+                
+            </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="preloader.js"></script>
+  
+  </body>
+</html>

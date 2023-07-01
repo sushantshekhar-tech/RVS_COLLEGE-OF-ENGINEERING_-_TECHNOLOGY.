@@ -1,0 +1,1793 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Faculties of Department (ECE)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="preloader2.css">
+  </head>
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+body {
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      margin-top: 50px;
+    }
+
+    .card {
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      background-color: #fff;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .card-text {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .card-link {
+      display: inline-block;
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .card-link:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+    #animation-div {
+      text-align: center;
+      padding: 30px;
+      background-color:#f2f2f2;
+      color: #660808;
+      font-size: 30px;
+      position: relative;
+      animation: text-animation 10s linear infinite;
+    }
+
+    .container3{
+    display: flex;
+    background-color: rgb(11, 6, 50);
+    color: aliceblue;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 25vh;
+  }
+  h2{
+    color: navy;
+  }
+
+
+    @keyframes text-animation {
+      0% {
+        left: -100%;
+      }
+      100% {
+        left: 100%;
+      }
+    }
+  </style>
+  <body>
+   <div class="preloader"></div>
+    <nav class="navbar sticky-top navbar-expand-lg  " style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+          <a class="navbar-brand" >
+              <img src="/favicon.png" alt="LOGO" width="30" height="24">
+            </a>
+        <a class="navbar-brand mb-0 h1" href="#">RVS COLLEGE OF ENGINEERING AND TECHNOLOGY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-end  ">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="studentcorner.html">Student Corner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Under Graduation Programs
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="CSE.html">Computer Science Engineering (CSE)</a></li>
+                <li><a class="dropdown-item" href="ECE.html">Electronics and Communication Engineering (ECE)</a></li>
+                <li><a class="dropdown-item" href="CE.html">Civil Engineering (CE)</a></li>
+                <li><a class="dropdown-item" href="EEE.html"> Electrical and Electronic Engineering (EEE)</a></li>
+                <li><a class="dropdown-item" href="ME.html">Mechanical Engineering (ME)</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Bachelor's in Computer Application (BCA)</a></li>
+                <li><a class="dropdown-item" href="#">Bachelor's of business Administration (BBA)</a></li>
+              
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Post Graduation Programs
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="PG.html">M.tech in Computer Science Engineering</a></li>
+                <li><a class="dropdown-item" href="PG.html">Masters of Computer Application</a></li>
+             
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Diploma
+              </a>
+              <ul class="dropdown-menu">
+            
+                <li><a class="dropdown-item" href="diploma.html">Civil Engineering(CE)</a></li>
+                <li><a class="dropdown-item" href="diploma.html"> Electrical and Electronic Engineering(EEE)</a></li>
+                <li><a class="dropdown-item" href="diploma.html">Mechanical Engineering(ME)</a></li>
+             
+          
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <section>
+      <div class="item">
+        <img src="https://mcg-qna.s3.amazonaws.com/39847380cd9b416c184da4acfaff61c17638e69a54ff_690x230.jpg" alt="image" width="100%" height="25%" class="img-fluid">
+        <div class="container">
+           <div class="row m-0">
+              <div class="banner-data color-white">
+                 <div class="tp-caption"></div>
+                 <div class="tp-title "></div>
+                 <div class="banner-btn">
+                    <a href="" target="_blank" class="green-btn btn"></a>
+                   <!-- <a href="" class="transparent-btn btn"></a>-->
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+    </section>
+
+
+
+
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item" >Undergraduate Courses</li>
+          <li class="breadcrumb-item " >Electronics & Communication Engineering</li>
+          <li class="breadcrumb-item active" aria-current="page">Faculties</li>
+        </ol>
+      </nav>
+
+
+      <section class="program  grey--bg pb--50 ">
+        <div class="container">
+                 <div class="tab-content mt-4" id="pills-tabContent">
+                                                                 <div class="tab-pane fade" id="program" role="tabpanel" aria-labelledby="program-tab">
+                       
+                      <div class="row">
+                             <div class="col-md-12 ">
+                       <div class="text-center mb-4 ptb--30">
+                          <h2 class=" blue-color blue-color">Our Mission</h2>
+                          <p>Choose Best Degree Programs For Your Career</p>
+                       </div> </div> </div>
+                       <div class="row align-items-center">
+                          <div class="col-md-8">
+                             <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/04/Electrical_Communication_Engineering_Box_2.jpg" alt="" class="img-fluid">
+                          </div>
+                          <div class="col-md-4 ps-5">
+                                                     <div class="d-flex align-items-center  mb-3">
+                                <div class="programimg"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-213.png" alt="" class="img-fluid"></div>
+                                <div class="ps-4">
+                                   <h5 class=" blue-color">Electronics and Communication Engineering</h5>
+                                   <p>Department</p>
+                                </div>
+                             </div>
+                                                     <div class="d-flex align-items-center  mb-3">
+                                <div class="programimg"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-213.svg" alt="" class="img-fluid"></div>
+                                <div class="ps-4">
+                                   <h5 class=" blue-color">Under Graduate</h5>
+                                   <p>Program</p>
+                                </div>
+                             </div>
+                                                     <div class="d-flex align-items-center  mb-3">
+                                <div class="programimg"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-213-1.png" alt="" class="img-fluid"></div>
+                                <div class="ps-4">
+                                   <h5 class=" blue-color">60</h5>
+                                   <p>Seats</p>
+                                </div>
+                             </div>
+                                                     <div class="d-flex align-items-center  mb-3">
+                                <div class="programimg"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-213-2.png" alt="" class="img-fluid"></div>
+                                <div class="ps-4">
+                                   <h5 class=" blue-color">08</h5>
+                                   <p>Semesters</p>
+                                </div>
+                             </div>
+                                                  </div>
+                       </div>
+                       <div class="row justify-content-center ptb--30">
+                          <div class="col-md-12 ">
+                             <h2 class="blue-color mb-4">Electronics and Communication Engineering</h2>
+                             <p><strong>Course Description &amp; Detail</strong></p>
+                             <p></p><p>The Department of Electronics &amp; Communication Engineering at RVSCET has a top-level quality assessment rating for teaching, and reputation for research. It was established in the year 2004 with the avowed intent of raising highly qualified Engineers and Researchers who can make substantial contribution to the field of Electronics and Communication Engineering. The department is guided by a team of devoted and diligent faculty and staff members. The department has well equipped laboratories such as Basic Electronics, Analog and Digital Electronics, Solid State Device, Analog, Digital, Optical, Advance Communication, Microwave , RF Communication System, VLSI Design, Signal System, DSP, Electronics Design, Microprocessor, Microcontroller etc. Advance software’s like HFSS, Multisim, MATLAB, VISSIM-COMM etc. are the pride of the department. The Electronics and Communication department conducts regular Co-curricular activities like Workshop, Seminars, Invited talks by renowned personalities from industries and academic institutions.</p>
+     <p>The inputs from visiting professors and advisers from industries are used for continuous quality improvement of the students in order to meet the needs of the industries, which are among the reasons why students all over the country chose to pursue their study in Electronics and Communication Engineering at this department. In every year 75 – 80% students are placed in different reputed industries, 15 -20% students goes for higher study in India and abroad and about 1-5% become entrepreneur.</p>
+     <p></p>
+                          </div>
+                          <div class="col-md-12">
+                             <div class="civil-slider owl-carousel owl-theme owl-loaded owl-drag owl-hidden">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1856px, 0px, 0px); transition: all 0s ease 0s; width: 5571px;"><div class="owl-item cloned" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220-1.png" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">60</h5>
+                                            <p class="m-0">Seats</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item cloned" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-297.svg" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">08</h5>
+                                            <p class="m-0">Semester</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item cloned" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220-2.png" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">4 years</h5>
+                                            <p class="m-0">Duration</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item cloned" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-297-1.svg" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">2023-27</h5>
+                                            <p class="m-0">Session</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item cloned" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220-3.png" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">INR 48,000</h5>
+                                            <p class="m-0">Per semester</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item cloned" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.svg" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">INR 96,000</h5>
+                                            <p class="m-0">Fee per year</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item active" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220-1.png" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">60</h5>
+                                            <p class="m-0">Seats</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item active" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-297.svg" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">08</h5>
+                                            <p class="m-0">Semester</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item active" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220-2.png" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">4 years</h5>
+                                            <p class="m-0">Duration</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item active" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-297-1.svg" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">2023-27</h5>
+                                            <p class="m-0">Session</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item active" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220-3.png" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">INR 48,000</h5>
+                                            <p class="m-0">Per semester</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item active" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.svg" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">INR 96,000</h5>
+                                            <p class="m-0">Fee per year</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item cloned" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220-1.png" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">60</h5>
+                                            <p class="m-0">Seats</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item cloned" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-297.svg" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">08</h5>
+                                            <p class="m-0">Semester</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item cloned" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220-2.png" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">4 years</h5>
+                                            <p class="m-0">Duration</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item cloned" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-297-1.svg" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">2023-27</h5>
+                                            <p class="m-0">Session</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item cloned" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220-3.png" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">INR 48,000</h5>
+                                            <p class="m-0">Per semester</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div><div class="owl-item cloned" style="width: 299.445px; margin-right: 10px;"><div class="item">
+                                   <div class="p-1">
+                                      <div class="shadow-b shadow-bb d-flex align-items-center  mb-5">
+                                         <div class="w-60"><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.svg" alt="" class="img-fluid"></div>
+                                         <div class="ps-2">
+                                            <h5 class="m-0">INR 96,000</h5>
+                                            <p class="m-0">Fee per year</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"><button role="button" class="owl-dot active"><span></span></button></div></div>
+                             <div><a href="https://admission.rvscollege.ac.in/" target="_blank" class="green-btn btn">Apply Now &gt;</a></div>
+                          </div>
+                       </div>
+                    </div>
+                                                                                                        
+                                                                                
+                    
+                    
+                    
+                      
+     
+     
+     
+     
+     
+     
+     
+                    
+                                                                                                              <div class="tab-pane fade inactive active show" id="faculties" role="tabpanel" aria-labelledby="faculties-tab">
+                       <section class="ptb--30 tabteam ">
+                          <div class="container">
+                             <div class="row">
+                                <div class="col-md-12 text-center">
+                                   <h2 class="blue-color">Our Expert Faculties</h2>
+                                </div>
+                             </div>
+                             <div class="row mt--50 professor">
+                                                           <div class="container team-member text-center col-md-3 pb--40">
+                                 <div class="backcolor">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/rakesh-kumar.jpg" alt="" class="img-fluid image w-100"></div>
+                                   <h5>Dr. RAKESH KUMAR </h5>
+                                   <p>HOD &amp; ASSOCIATE PROFESSOR</p>
+                                   <div class="middle">
+                                      <div class="text">DOJ: 5-11-2005, QUALIFICATION: B.TECH, M.Sc,(Engg) Electrical, PURSUING Ph.D, AREA OF INTEREST –ANALOG ELECTRONICS, MICROWAVE, MICROPROCESSOR, ARTIFICIAL NEURAL NETWORK, POWER ELECTRONICS.</div>
+                                   </div>
+                                </div>
+                                                           <div class="container team-member text-center col-md-3 pb--40">
+                                 <div class="backcolor">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/dr-shalini-kumari.jpg" alt="" class="img-fluid image w-100"></div>
+                                   <h5>Dr. SHALINI KUMARI</h5>
+                                   <p>ASSISTANT PROFESSOR</p>
+                                   <div class="middle">
+                                      <div class="text">DOJ: 1-4-2009, QUALIFICATION-B.E, M.Sc,Ph.D, AREA OF INTEREST –OPTICAL COMMUNICATION AND NETWORKING, POWER ELECTRONICS, DIGITAL ELECTRONICS, SATELLITE COMMUNICATION, TELECOMMUNICATION, WIRELESS COMMUNICATION</div>
+                                   </div>
+                                </div>
+                                                           <div class="container team-member text-center col-md-3 pb--40">
+                                 <div class="backcolor">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/sushanta-mahanty.jpg" alt="" class="img-fluid image w-100"></div>
+                                   <h5>PROF. SUSHANTA MAHANTY </h5>
+                                   <p>ASSISTANT PROFESSOR</p>
+                                   <div class="middle">
+                                      <div class="text">DOJ 25-7-2007, QUALIFICATION-B.TECH, M.TECH(CONTROL SYSTEM) AREA OF INTEREST –SIGNAL PROCESSING, CONTROL SYSTEM, IMAGE PROCESSING, DIGITAL ELECTRONICS</div>
+                                   </div>
+                                </div>
+                                                           <div class="container team-member text-center col-md-3 pb--40">
+                                 <div class="backcolor">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/anand-mohan.jpg" alt="" class="img-fluid image w-100"></div>
+                                   <h5>PROF. ANAND MOHAN</h5>
+                                   <p>ASSISTANT PROFESSOR</p>
+                                   <div class="middle">
+                                      <div class="text">DOJ: 30-3-2010, QUALIFICATION-B.Sc hos (Chem), B.TECH, M.TECH, AREA OF INTEREST- COMMUNICATION ENGINEERING, BASIC ELECTRONICS</div>
+                                   </div>
+                                </div>
+                                                           <div class="container team-member text-center col-md-3 pb--40">
+                                 <div class="backcolor">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/deepak-kumar.jpg" alt="" class="img-fluid image w-100"></div>
+                                   <h5>PROF. DEEPAK KUMAR</h5>
+                                   <p>ASSISTANT PROFESSOR</p>
+                                   <div class="middle">
+                                      <div class="text">DOJ: 04-3-2010, QUALIFICATION-B.TECH, M.TECH, AREA OF INTEREST- ELECTRONICS CIRCUITS, COMMUNICATION ENGINEERING, BASIC ELECTRONICS</div>
+                                   </div>
+                                </div>
+                                                           <div class="container team-member text-center col-md-3 pb--40">
+                                 <div class="backcolor">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/anuradha-verma.jpg" alt="" class="img-fluid image w-100"></div>
+                                   <h5>PROF. ANURADHA VERMA</h5>
+                                   <p>ASSISTANT PROFESSOR</p>
+                                   <div class="middle">
+                                      <div class="text">DOJ: 01-11-2017, QUALIFICATION-B.TECH, M.TECH, AREA OF INTEREST-VLSI, EMBEDDED SYSTEM, SIGNAL PROCESSING</div>
+                                   </div>
+                                </div>
+                                                           <div class="container team-member text-center col-md-3 pb--40">
+                                 <div class="backcolor">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/raahul-ranjan.jpg" alt="" class="img-fluid image w-100"></div>
+                                   <h5>PROF. RAHUL RANJAN</h5>
+                                   <p>ASSISTANT PROFESSOR</p>
+                                   <div class="middle">
+                                      <div class="text">DOJ: 23-01-2018; QUALIFICATION-B.TECH, M.TECH, AREA OF INTEREST ;- BASIC ELECTRONICS, DIGITAL ELECTRONICS, SATELLITE COMMUNICATION, TELECOMMUNICATION, WIRELESS COMMUNICATION</div>
+                                   </div>
+                                </div>
+                                                           <div class="container team-member text-center col-md-3 pb--40">
+                                 <div class="backcolor">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/santimoy-mondal.jpg" alt="" class="img-fluid image w-100"></div>
+                                   <h5>PROF. SANTIMOY MANDAL</h5>
+                                   <p>ASSISTANT PROFESSOR</p>
+                                   <div class="middle">
+                                      <div class="text">DOJ: 04-04-2018, QUALIFICATION-B.TECH, M.TECH, AREA OF INTEREST:- MIMO SYSTEM, MICROSTRIP PATCH ANTENNA DESIGN</div>
+                                   </div>
+                                </div>
+                                                        </div>
+                          </div>
+                       </section>
+                    </div>
+                                                                          
+                                                                                
+                    
+                    
+                    
+                      
+     
+     
+     
+     
+     
+     
+     
+                    
+                                                                                                                                            <div class="tab-pane fade inactive" id="facilities" role="tabpanel" aria-labelledby="facilities-tab">
+                       <div class="text-center mb-4 ptb--30">
+                          <h2 class="blue-color"> Facilities </h2>
+                          <p>Choose Best Degree Programs For Your Career</p>
+                       </div>
+                       <div class="accordion" id="accordionExample grey--bg">
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button  nocollapse " type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">LABORATORY : Department of Electronics and Communication Engineering</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse1" class="accordion-collapse   nocollapse show " aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><p>List of Labs-</p>
+     <p>&nbsp;</p>
+     <table class="table table-striped">
+     <thead>
+     <tr>
+     <th>S.no</th>
+     <th>Name of the Laboratory</th>
+     </tr>
+     </thead>
+     <tbody class="table-content-size">
+     <tr>
+     <td>1</td>
+     <td>Basic Electronics Lab Types of Instrument (Kit/Software):- CRO, Multimeter,Trainer board, Various Electronic Components</td>
+     </tr>
+     <tr>
+     <td>2</td>
+     <td>Digital Electronics &amp; Logic Design Types of Instrument (Kit/Software) :- CRO, Kits for various digital circuit, Trainer board</td>
+     </tr>
+     <tr>
+     <td>3</td>
+     <td>Electronics Instruments Lab Types of Instrument (Kit/Software) :- Trainer board ,different types of bridge networks,function generators</td>
+     </tr>
+     <tr>
+     <td>4</td>
+     <td>Network Analysis Lab Types of Instrument (Kit/Software) :- Resistors, and Capacitors and Inductors</td>
+     </tr>
+     <tr>
+     <td>5</td>
+     <td>Electronic Circuits Lab Types of Instrument (Kit/Software) :- Kits for different types of Oscillators and Amplifiers</td>
+     </tr>
+     <tr>
+     <td>6</td>
+     <td>Solid State Devices Lab Types of Instrument (Kit/Software) :- Trainer board of BJT, FET, MOSFET</td>
+     </tr>
+     <tr>
+     <td>7</td>
+     <td>Linear IC’S &amp; Applications Lab Types of Instrument (Kit/Software) :- Various Linear IC’s</td>
+     </tr>
+     <tr>
+     <td>8</td>
+     <td>Electronic Instrumentation Lab Types of Instrument (Kit/Software) :-Different types of sensors</td>
+     </tr>
+     <tr>
+     <td>9</td>
+     <td>Communication System I Lab Types of Instrument (Kit/Software) :- Kits for Various Modulating technique for Digital Communication</td>
+     </tr>
+     <tr>
+     <td>10</td>
+     <td>Microprocessor Theory Lab Types of Instrument (Kit/Software) :- 8081,8085,8086 based Trainer board and Accessories</td>
+     </tr>
+     <tr>
+     <td>11</td>
+     <td>Automatic Control System Lab Types of Instrument (Kit/Software) :- Different types of Control system Kits, Controller Kit P,PD,PID, Position Control System Kit, Synchros Kit</td>
+     </tr>
+     <tr>
+     <td>12</td>
+     <td>Communication System II Lab Types of Instrument (Kit/Software) :- Kits for Various Modulating technique for Digital Communication</td>
+     </tr>
+     <tr>
+     <td>13</td>
+     <td>Microwave Engineering Lab Types of Instrument (Kit/Software) :- Microwave Bench, Various types of Antennas and Assessories</td>
+     </tr>
+     <tr>
+     <td>14</td>
+     <td>Communication Hardware Design Lab Types of Instrument (Kit/Software) :- VSIM, MULTISIM</td>
+     </tr>
+     <tr>
+     <td>15</td>
+     <td>Optical Communication Lab Types of Instrument (Kit/Software) :-Kits for Various Communication Techniques using Optical Fibre cable</td>
+     </tr>
+     <tr>
+     <td>16</td>
+     <td>Digital Signal Processing Lab Types of Instrument (Kit/Software) :- MATLAB , 30 computers with internet</td>
+     </tr>
+     <tr>
+     <td>17</td>
+     <td>Optical Network Lab Types of Instrument (Kit/Software) :- Kits for13 10 and 15 50 Nano meter wavelength, lasers source and various Optical Networking component’s module</td>
+     </tr>
+     </tbody>
+     </table>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">LIBRARY : Department of Electronics and Communication Engineering</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse2" class="accordion-collapse  collapse " aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><div>
+     <p>In addition to the Central Library Departments have their own Library. This contains important titles and Journals in the respective branches of study. Students and Staff are advised to fully utilize these books, previous year project thesis, Gate materials and Journals for further enhancement of their subject knowledge books and Journals will not be issued any one, but are available only for reference wish in the Departmental HOD and faculty In-charge controls the functionality of department Library.</p>
+     <p>&nbsp;</p>
+     </div>
+     <div>
+     <table class="table table-striped">
+     <thead>
+     <tr>
+     <th>S.No.</th>
+     <th>Name of the Book</th>
+     <th>Name of the Author</th>
+     </tr>
+     </thead>
+     <tbody class="table-content-size">
+     <tr>
+     <td>1</td>
+     <td>Electrical Technology</td>
+     <td>B.L. THEREJA</td>
+     </tr>
+     </tbody>
+     </table>
+     </div>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">COMPUTING FACILITIES : Department of Electronics and Communication Engineering</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse3" class="accordion-collapse  collapse " aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><p>The department provides computing facilities with separate computers to each student. All laboratories are connected to 20Mbps internet connection. This laboratory is specially designed for Electronics &amp; Communication engineering department to facilitate the students to do their mini and major projects inside the campus. It has 30 personal computers. All are networked and well furnished. Projects vary from different software and application software development, design and optimization of new algorithms, audio/video compression software, IoT, Image processing, Machine Learning and network related projects.</p>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">INNOVATION CENTRE : Department of Electronics and Communication Engineering</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse4" class="accordion-collapse  collapse " aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><p>This Institute emanates with a goal to bring academic competition to a level of excellence from where we can measure the strength of our students and work towards the direction of improvisation. It envisions enhancing the education and knowledge of the learners by promoting a competitive platform thus alleviating the teaching-learning process. Learning happens when the students are engaged and occupied in a real academic sense. This institute will provide high-quality education, leading to high standards and the best outcomes in a safe environment for all our students.</p>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                            </div>
+                    </div>
+                                                           
+                                                                                
+                    
+                    
+                    
+                      
+     
+     
+     
+     
+     
+     
+     
+                    
+                                                                                                                                                           <div class="tab-pane fade inactive" id="research" role="tabpanel" aria-labelledby="research-tab">
+                       <div class="text-center mb-4 ptb--30">
+                          <h2 class="blue-color"> Research </h2>
+                          <p>Choose Best Degree Programs For Your Career</p>
+                       </div>
+                       <div class="accordion" id="accordionExample grey--bg">
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading1">
+                                <button class="accordion-button  nocollapse " type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">Sushanta Mahanty</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse1" class="accordion-collapse   nocollapse show " aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><ol>
+     <li>Ghosh, Suman, and&nbsp;<strong>Sushanta Mahant</strong>y. “Single Phase Multilevel Inverters with Simple Control Strategy Using MATLAB.” Int. Res. J. Eng. Technol 2, no. 7 (2015).</li>
+     <li>&nbsp;Singh, Vishakha, Kumari Madhu Priya, and&nbsp;<strong>Sushanta Mahanty</strong>. “A Nearer Approach to Image Segmentation Methods.</li>
+     <li>&nbsp;<strong>Sushanta Mahanty</strong>&nbsp;and Alok Ranjan,” Control And Estimation Of Biological Signals (Ecg) Using Adaptive System”, International Journal of Electrical and Electronics Engineering (IJEEE) ISSN (PRINT): 2231 – 5284, Vol-2, Iss-1, 2012.</li>
+     <li>Vishakha Singh, Kumari Madhu Priya,&nbsp;<strong>Sushanta Mahanty</strong>,” Lung Cancer Detection of CT Scan Images by using Various Image Processing Techniques”, International Journal of Research in Engineering ,Technology and Science ,ISSN:2454-1915,Volume 6, Issue 10,October 2016.</li>
+     <li>Chanda Gupta, Varsha Kumari,&nbsp;<strong>Prof.Sushanta Mahant</strong>y,” Implementation of Image Segmentation and GUI on MATLAB”, International Journal of Research in Engineering ,Technology and Science ,ISSN:2454-1915,Volume 6, Issue 10,October 2016.</li>
+     <li>Aman Kumar, Shazia Perween, Rahul Sundi and&nbsp;&nbsp;<strong>Sushanta Mahanty</strong>,”Detection of Lung Cancer on CT Images by Using Image Processing Techniques” , International Journal of Research in Engineering ,Technology and Science ,ISSN:2454-1915,Volume 6, Issue 10,October 2016.</li>
+     <li>Nitu Kumari, Kusum Kumari, Manisha Tigga,&nbsp;<strong>Sushanta Mahanty</strong>, “Extraction of Brain Tumor From MRI Images Using Matlab”, International Journal of Research in Engineering ,Technology and Science ,ISSN:2454-1915,Volume 6, Issue 10,October 2016.</li>
+     <li>Sonalika, Prity Kumari,&nbsp; Shashi Shweta Bara,&nbsp; &nbsp;<strong>Sushanta Mahanty</strong>,” Wireless Sensor Technologies and its Applications in Agriculture monitoring&nbsp; &nbsp;and Food Industry using RFID”, International Journal of Research in Engineering ,Technology and Science ,ISSN:2454-1915,Volume 6, Issue 10,October 2016.</li>
+     <li>Preyoshi Ghosh,&nbsp;<strong>Sushanta Mahanty</strong>,” Application of Wireless Sensor Network for Greenhouse Parameter Control in Precision Agriculture: A Review”, International Journal of Research in Engineering ,Technology and Science ,ISSN:2454-1915,Volume 6, Issue 10,October 2016.</li>
+     <li>Suchismita Soren, Shabana Parvez, Anang Baral and&nbsp;<strong>Sushanta Mahanty</strong>,” Application of Wireless Sensor Networks for Healthcare”, International Journal of Research in Engineering ,Technology and Science ,ISSN:2454-1915,Volume 6, Issue 10,October 2016.</li>
+     <li>P.K.Singh, Syed Anwarul Haque And&nbsp;<strong>Sushant Mohanty</strong>,” Wireless Sensor Network for Industrial Process Controlling And Monitoring”, International Journal of Research in Engineering ,Technology and Science ,ISSN:2454-1915,Volume 6, Issue 10,October 2016.</li>
+     </ol>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">Anand Mohan</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse2" class="accordion-collapse  collapse " aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><ol>
+     <li style="list-style-type: none;">
+     <ol>
+     <li><strong>Anand Mohan,</strong>&nbsp;Shalini Kumari, Deepak Kumar, Kundan Kumar, “Propane Gas Detection system using microcontroller”, International Journal of new technologies in science and engineering (IJNTSE), ISSN : 2349-0780, Volume 2, Issue 3, pp. 66-75, September 2015 .</li>
+     <li>Shalini Kumari,&nbsp;<strong>Anand Mohan</strong>&nbsp;&amp; Deepak Kumar, “Long Term Evolution In Mobile communication”, International Journal of Research in Engineering, Technology and Science , ISSN : 2454-1915, Volume 6, Issue 4, April 2016 .</li>
+     <li><strong>Anand Mohan,</strong>&nbsp;Kundan Kumar, Deepak Kumar, ”Security Based On Water Marking For Medical Imaging” International Journal of Research in Engineering, Technology and Science, ISSN :2454-1915, Volume 6, Issue 10, October 2016.</li>
+     <li>Deepak Kumar, Kundan Kumar,&nbsp;<strong>Anand Mohan,</strong>&nbsp;“Wireless Laser Based Voice Transmitter And Receiver” International Journal of Research in Engineering, Technology and Science, ISSN : 2454-1915, Volume 6, Issue 10, October 2016.</li>
+     <li>Shashi Prakash, Gunjan Dave,&nbsp;<strong>Anand Mohan,</strong>&nbsp;Abhinav Kumar, Dilip Kumar “Real Time Color Object Detection And Tracking By Image Processing” International Journal of Research in Engineering, Technology and Science, ISSN : 2454-1915, Volume 6, Issue 10, October 2016.</li>
+     <li>Kundan Kumar Singh,&nbsp;<strong>Anand Mohan,</strong>&nbsp;Arunabh Kumar, S.Hussain, Nishant Kumar “Design Of Compact Broad Band And Microstrip Antenna” International Journal of Research in Engineering, Technology and Science, ISSN :2454-1915, Volume 6, Issue 10, October 2016.</li>
+     <li>Kundan Kumar Singh,&nbsp;<strong>Anand Mohan,</strong>&nbsp;Arunabh Kumar, S.Hussain, Deepak Kumar “Genration And Recording Of Biopotential” International Journal of Research in Engineering, Technology and Science, ISSN :2454-1915, Volume 6, Issue 10, October 2016.</li>
+     <li>Anish Singh, Sangita Jully, Reshiva Rai,&nbsp;<strong>Anand Mohan</strong>&nbsp;“ Abnormal Blood Cell Detection Using METLAB” International Journal of Research in Engineering, Technology and Science, ISSN :2454-1915, Volume 6, Issue 10, October 2016.</li>
+     <li>Kajal Kumari,&nbsp;<strong>Anand Mohan,</strong> Anuradha Verma, Neelu Kumari Munda, Ajay Paulus Xalxo, Mukesh Kumar Bhagat, “LPG Gas Leakage Detection System Using GSM Module” International Journal of Computer Engineering and Applications, Volume XII, Special Issue, August 18, IJCEA, ISSN 2321-3469, 3RD International Conference on Recent Trends in Computer science &amp; Technology (ICRTCST-2018), conference at RVS College of Engineering &amp; Technology, Jamshedpur, 24th -25th April, 2018. http://www.ijcea.com/wp-content/uploads/2018/08/ICRTCST-2018-233.pdf</li>
+     <li>Bangshidhar Goswami, Jeeban Kumar, Prakash Kumar, Rakesh Kumar, Shalini Kumari, Anand Mohan, Deepak Kumar, Shusant Mohanty, “Forefronts in waste management and leather degradation of tanning industries ”, International Journal of Green Chemistry, Vol 5, Issue 1, pg. no. 24-35 (2019) .</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Shalini Kumari, Rakesh Kumar, Anand Mohan, Deepak Kumar and Sushanta Mohanty, “Polymer Composites Based Modern Sensors for Various Applications”, International Journal of Nanotechnology, ISSN: 2456-0111. Vol 5 Issue 1, pg.no 32-36(2019).<br>
+     http://materials.journalspub.info/index.php?journal=IJNB&amp;page=article&amp;<br>
+     op=view&amp;path%5B%5D=574</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Shalini Kumari, Rakesh Kumar, Anand Mohan, Deepak Kumar and Sushanta Mohanty, “Nanocomposite Based Sensors and Its Potential in Modern Sectors ”, International Journal of Nanotechnology, ISSN: 2456-0111. Vol 5 Issue 1,pg.no. 14-18(2019).<br>
+     http://materials.journalspub.info/index.php?journal=IJNB&amp;page=article&amp;<br>
+     op=view&amp;path%5B%5D=575</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Rakesh Kumar, Shalini Kumari, Anand Mohan, Deepak Kumar, Shusant Mohanty “Forefronts in degradation of wood” .International Journal on Green Chemistry, ISSN:2582-5925 Vol 5 Issue 1,(2019)<br>
+     http://chemical.journalspub.info/index.php?journal=IJGC&amp;page=article&amp;<br>
+     op=view&amp;path%5B%5D=793</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Rakesh Kumar, Shalini Kumari, Anand Mohan, Deepak Kumar, Shusant Mohanty, “Tempered glass and fragment sizes – The frangibility” , International Journal of Fracture and Damage Mechanics, Vol 5 Issue 2 pg.no. 1-9(2019).<br>
+     http://mechanical.journalspub.info/index.php?journal=IJFM&amp;page=article<br>
+     &amp;op=view&amp;path%5B%5D=928</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Rakesh Kumar, Shalini Kumari, Anand Mohan, Deepak Kumar, Shusant Mohanty,” Forefronts in Wear of Tires, Remnant Usage and Friction Surfacing” International Journal of Fracture and Damage Mechanics, ISSN: Vol 5 Issue 2 pg.no. 29-40(2019).<br>
+     http://mechanical.journalspub.info/index.php?journal=IJFM&amp;page=article<br>
+     &amp;op=view&amp;path%5B%5D=927</li>
+     <li>Shalini Kumari, Sumit KumarSingh,Anand Mohan, Deepak Kumar, Shashi Praksh, “ Automation Plant Irrigation System” Journal of Emerging Technologies and Innovative Research, ISSN:234-5162 vol 9 Issue3, March 2022. http://www.jetir.org/papers/JETIR2203627.pdf Impact factor -7.95</li>
+     <li>Anand Mohan, Sumit Kr. Singh, Shalini Kumari, Deepak Kumar, Shashi Prakash, “SOLER ENERGY CHARGER AND AUTOFOCUSSING”, Journal of Emerging Technologies and Innovative Research, ISSN:234-5162 vol 9 Issue3, March 2022. https://www.jetir.org/view?paper=JETIR2203533 Impact factor -7.95</li>
+     </ol>
+     </li>
+     </ol>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">Deepak Kumar</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse3" class="accordion-collapse  collapse " aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><ol>
+     <li>Anand Mohan ,Shalini Kumari,&nbsp;<strong>Deepak Kumar</strong>, Kundan Kumar , “Propane Gas Detection system using microcontroller” ,International Journal of new technologies in science and engineering (IJNTSE),ISSN:2349-0780, Volume 2, Issue 3 ,pp. 66-75 ,September 2015 .</li>
+     <li>Shalini Kumari ,Anand Mohan &amp;&nbsp;<strong>Deepak Kumar</strong>, “Long Term Evolution In Mobile communication”, International Journal of Research in Engineering ,Technology and Science ,ISSN :2454-1915,Volume 6,Issue 4,April 2016.</li>
+     <li>Anand Mohan, Kundan Kumar,&nbsp;<strong>Deepak Kumar</strong>, ”Security Based On Water Marking For Medical Imaging” International Journal of Research in Engineering ,Technology and Science ,ISSN :2454-1915, Volume 6, Issue 10,October 2016.</li>
+     <li><strong>Deepak Kumar</strong>, Kundan Kumar, Anand Mohan, “Wireless Laser Based Voice Transmitter And Receiver” International Journal of Research in Engineering ,Technology and Science ,ISSN :2454-1915, , Volume 6, Issue 10,October 2016.</li>
+     <li>Kundan Kumar Singh, Anand Mohan, Arunabh Kumar, S.Hussain,&nbsp;<strong>Deepak Kumar</strong>&nbsp;“Genration And Recording Of Biopotential” International Journal of Research in Engineering ,Technology and Science ,ISSN :2454-1915, , Volume 6, Issue 10,October 2016.</li>
+     <li>Bangshidhar Goswami, Jeeban Kumar, Prakash Kumar, Rakesh Kumar, Shalini Kumari, Anand Mohan, Deepak Kumar, Shusant Mohanty, “Forefronts in waste management and leather degradation of tanning industries ”, International Journal of Green Chemistry, Vol 5, Issue 1, pg. no. 24-35 (2019) .</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Shalini Kumari, Rakesh Kumar, Anand Mohan, Deepak Kumar and Sushanta Mohanty, “Polymer Composites Based Modern Sensors for Various Applications”, International Journal of Nanotechnology, ISSN: 2456-0111. Vol 5 Issue 1, pg.no 32-36(2019).http://materials.journalspub.info/index.php?journal=IJNB&amp;page=article&amp;op=view&amp;path%5B%5D=574</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Shalini Kumari, Rakesh Kumar, Anand Mohan, Deepak Kumar and Sushanta Mohanty, “Nanocomposite Based Sensors and Its Potential in Modern Sectors ”, International Journal of Nanotechnology, ISSN: 2456-0111. Vol 5 Issue 1,pg.no. 14-18(2019).http://materials.journalspub.info/index.php?journal=IJNB&amp;page=article&amp;op=view&amp;path%5B%5D=575</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Rakesh Kumar, Shalini Kumari, Anand Mohan, Deepak Kumar, Shusant Mohanty “Forefronts in degradation of wood” .International Journal on Green Chemistry, ISSN:2582-5925 Vol 5 Issue 1,(2019)http://chemical.journalspub.info/index.php?journal=IJGC&amp;page=article&amp;op=view&amp;path%5B%5D=793</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Rakesh Kumar, Shalini Kumari, Anand Mohan, Deepak Kumar, Shusant Mohanty, “Tempered glass and fragment sizes – The frangibility” , International Journal of Fracture and Damage Mechanics, Vol 5 Issue 2 pg.no. 1-9(2019).http://mechanical.journalspub.info/index.php?journal=IJFM&amp;page=article&amp;op=view&amp;path%5B%5D=928</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Rakesh Kumar, Shalini Kumari, Anand Mohan, Deepak Kumar, Shusant Mohanty,” Forefronts in Wear of Tires, Remnant Usage and Friction Surfacing” International Journal of Fracture and Damage Mechanics, ISSN: Vol 5 Issue 2 pg.no. 29-40(2019).http://mechanical.journalspub.info/index.php?journal=IJFM&amp;page=article&amp;op=view&amp;path%5B%5D=927</li>
+     <li>Shalini Kumari, Sumit KumarSingh,Anand Mohan, Deepak Kumar, Shashi Praksh, “ Automation Plant Irrigation System” Journal of Emerging Technologies and InnovativeResearch, ISSN:234-5162 vol 9 Issue3, March 2022. http://www.jetir.org/papers/JETIR2203627.pdf Impact factor -7.95</li>
+     <li>Anand Mohan, Sumit Kr. Singh, Shalini Kumari, Deepak Kumar, Shashi Prakash, “SOLER ENERGY CHARGER AND AUTOFOCUSSING”, Journal of Emerging Technologies and Innovative Research, ISSN:234-5162 vol 9 Issue3, March 2022. https://www.jetir.org/view?paper=JETIR2203533 Impact factor -7.95</li>
+     </ol>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading4">
+                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">Dr. Shalini Kumari</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse4" class="accordion-collapse  collapse " aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><ul>
+     <li style="list-style-type: none;">
+     <ul>
+     <li>Poulomi Ganguly , Anjali Kumari , Sweta Kumari , Shalini Kumari, “Performance Analysis of an Asynchronous Wecs in Grid Connected and Standalone Mode” , International Journal of computer Engineering and Applications, ISSN:2321-3469, Volume XII, Special Issue August 2018. http://www.ijcea.com/performance-analysis-asynchronous-wecs-grid-connected-standalone-mode/ Impact factor -6.119</li>
+     <li>Bangshidhar Goswami, Jeeban Kumar, Prakash Kumar, Rakesh Kumar, Shalini Kumari, Anand Mohan, Deepak Kumar, Shusant Mohanty, “Forefronts in waste management and leather degradation of tanning industries ”, International Journal of Green Chemistry, Vol 5, Issue 1, pg. no. 24-35 (2019) .</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Shalini Kumari, Rakesh Kumar, Anand Mohan, Deepak Kumar and Sushanta Mohanty, “Polymer Composites Based Modern Sensors for Various Applications”, International Journal of Nanotechnology, ISSN: 2456-0111. Vol 5 Issue 1, pg.no 32-36(2019).http://materials.journalspub.info/index.php?journal=IJNB&amp;page=article&amp;op=view&amp;path%5B%5D=574</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Shalini Kumari, Rakesh Kumar, Anand Mohan, Deepak Kumar and Sushanta Mohanty, “Nanocomposite Based Sensors and Its Potential in Modern Sectors ”, International Journal of Nanotechnology, ISSN: 2456-0111. Vol 5 Issue 1,pg.no. 14-18(2019).http://materials.journalspub.info/index.php?journal=IJNB&amp;page=article&amp;op=view&amp;path%5B%5D=575</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Rakesh Kumar, Shalini Kumari, Anand Mohan, Deepak Kumar, Shusant Mohanty “Forefronts in degradation of wood” .International Journal on Green Chemistry, ISSN:2582-5925 Vol 5 Issue 1,(2019)http://chemical.journalspub.info/index.php?journal=IJGC&amp;page=article&amp;op=view&amp;path%5B%5D=793</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Rakesh Kumar, Shalini Kumari, Anand Mohan, Deepak Kumar, Shusant Mohanty, “Tempered glass and fragment sizes – The frangibility” , International Journal of Fracture and Damage Mechanics, Vol 5 Issue 2 pg.no. 1-9(2019).http://mechanical.journalspub.info/index.php?journal=IJFM&amp;page=article&amp;op=view&amp;path%5B%5D=928</li>
+     <li>Bangshidhar Goswami, Prakash Kumar, Rakesh Kumar, Shalini Kumari, Anand Mohan, Deepak Kumar, Shusant Mohanty,” Forefronts in Wear of Tires, Remnant Usage and Friction Surfacing” International Journal of Fracture and Damage Mechanics, ISSN: Vol 5 Issue 2 pg.no. 29-40(2019).http://mechanical.journalspub.info/index.php?journal=IJFM&amp;page=article&amp;op=view&amp;path%5B%5D=927</li>
+     <li>Shalini Kumari, Sumit KumarSingh,Anand Mohan, Deepak Kumar, Shashi Praksh, “ Automation Plant Irrigation System” Journal of Emerging Technologies and Innovative Research, ISSN:234-5162 vol 9 Issue3, March 2022. http://www.jetir.org/papers/JETIR2203627.pdf Impact factor -7.95</li>
+     <li>Anand Mohan, Sumit Kr. Singh, Shalini Kumari, Deepak Kumar, Shashi Prakash, “SOLER ENERGY CHARGER AND AUTOFOCUSSING”, Journal of Emerging Technologies and Innovative Research, ISSN:234-5162 vol 9 Issue3, March 2022. https://www.jetir.org/view?paper=JETIR2203533 Impact factor -7.95</li>
+     </ul>
+     </li>
+     </ul>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading5">
+                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">Rakesh Kumar</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse5" class="accordion-collapse  collapse " aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><p><strong>Indexed Journal</strong></p>
+     <ol>
+     <li><strong>Rakesh Kumar&nbsp;</strong>and Shiva Nand Singh, “Design and analysis of ridge substrate integrated waveguide bandpass ﬁlter with octagonal complementary split ring resonator for suppression of higher order harmonics,” Progress In Electromagnetics Research C, Vol. 89, 87-99, 2019. doi:10.2528/PIERC18080404</li>
+     <li><strong>Rakesh Kumar</strong>&nbsp;and Shiva Nand Singh, “Compact Substrate Integrated Waveguide Multiband Band Pass Filter using Octagonal Complementary Split Ring Resonators”, International Journal of Applied Engineering Research ISSN 0973-4562 Volume 12, Number 20 (2017) pp. 10127-10133. https://www.ripublication.com/ijaer17/ijaerv12n20_27.pdf</li>
+     <li>Dr.S.N.Singh, Hirak Mazumdar,&nbsp;<strong>Rakesh Kumar</strong>, “Solar Cell Powering with Integrated Global Positioning System (GPS) for SWARM Robots System” (CEIS) Computer Engineering and Intelligent Systems, United States, IISTE, ISSN 2222-1719 (Paper) ISSN 2222-2863 (Online) ,Vol. 3, No.9, 2012.</li>
+     <li>S.N.Singh, Preeti Saw,&nbsp;<strong>Rakesh Kumar</strong>, “TECHNO – ECONOMIC VIABILITY&nbsp; OF HOLOGRAPHIC SOLAR&nbsp; HOME POWER SUPPLY&nbsp; FOR RURAL INDIA “ Global Journal For Research In Engineering And Technology&nbsp; Vol. 1, Issue 1, June 2012 pp.23-28.</li>
+     <li>S.N.Singh, Preeti Saw and&nbsp;<strong>Rakesh Kumar</strong>, “HOLOGRAPHY: NEW BREAKTHROUGH IN SOLAR POWER CONVERSION TECHNOLOGY” International Journal of Engineering Science and Technology (IJEST) Vol. 4, No.06, June 2012 pp.2485-2492.</li>
+     <li>S.N.Singh,&nbsp;<strong>Rakesh Kumar&nbsp;</strong>and Preeti Saw, “Holographic Solar Power House For Rural India”&nbsp; International Journal of Engineering Research and Applications (IJERA)&nbsp; ISSN: 2248-9622, Vol. 2, Issue 4, June- July 2012 pp.727-732.</li>
+     <li>S.N.Singh, Preeti Saw,&nbsp;<strong>Rakesh Kumar</strong>, “TECHNICAL VIABILITY OF HOLOGRAPHIC FILM ON SOLAR PANELS FOR OPTIMAL POWER GENERATION” International Journal of Advances in Engineering &amp; Technology ©IJAET ISSN: 2231-1963, Vol. 4, Issue 1, pp.217-225, July 2012.</li>
+     </ol>
+     <p><strong>International Conference</strong></p>
+     <ol>
+     <li>Ansari, MdHasim, Sushil Kumar, Sushanta Mahanty and&nbsp;<strong>Rakesh Kumar</strong>,&nbsp;“Leukemia Blood Cancer Detection using Image Processing.” International Journal of Computer Engineering and Applications, Volume XII, Special Issue, August 18, ijcea, ISSN 2321-3469, 3RD International Conference on Recent Trends in Computer science &amp; Technology (ICRTCST-2018), conference at RVS College of Engineering &amp; Technology, Jamshedpur,24th -25th April,2018. http://www.ijcea.com/wp-content/uploads/2018/08/ICRTCST-2018-233.pdf</li>
+     <li>Shalini Kumari,&nbsp;<strong>Rakesh Kumar&nbsp;</strong>and&nbsp;Akshay Tiwari, “TRAINABLE ROBOTICS ARM FOR PICK AND PLACE PURPOSE” International Journal of Computer Engineering and Applications, Volume XII, Special Issue, August 18, ijcea, ISSN 2321-3469, 3RD International Conference on Recent Trends in Computer science &amp; Technology (ICRTCST-2018), conference at RVS College of Engineering &amp; Technology, Jamshedpur,24th -25th April,2018. http://www.ijcea.com/trainable-robotics-arm-pick-place-purpose/</li>
+     <li>Amrita Bedi, Sweta, Kumari Priya Das, Abhineet Kumar Singh, Avradeep Ganguly and&nbsp;<strong>Rakesh Kumar</strong>, “Electromyography signal analysis and control”.</li>
+     <li>Komal Gupta, Deepak Kumar, Nitish Kumar, Ankita Kumari Sinha,&nbsp;<strong>Rakesh Kumar&nbsp;</strong>and Manisha Kumari, “Accelerometer based hand gesture controlled robot car”.</li>
+     </ol>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading6">
+                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">Avradeep Ganguly</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse6" class="accordion-collapse  collapse " aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><ol>
+     <li><strong>Avradeep Ganguly</strong>, “Multi –band Fractal antenna for WIMAX application”, International Journal of Research in Engineering ,Technology and Science ,ISSN:2454-1915,Volume 6, Issue 10,October 2016.</li>
+     <li>Azmat Hussain,&nbsp;<strong>Avradeep Ganguly</strong>, “Railway Track Crack Detection utilizing LED-LDR Assembly”, International Journal of Research in Engineering ,Technology and Science ,ISSN:2454-1915,Volume 6, Issue 10,October 2016.</li>
+     <li>Md. Hassim Ansari, Jaya Dubey, Kusum Kumari,&nbsp;<strong>Avradeep Ganguly</strong>, “GSM based Wireless display system using Microcontroller”, International Journal of Research in Engineering ,Technology and Science ,ISSN:2454-1915,Volume 6, Issue 10,October 2016.</li>
+     <li>Amrita Bedi, Sweta, Kumari Priya Das, Abhineet Kumar Singh,&nbsp;<strong>Avradeep Gangu</strong>ly, Rakesh Kumar, “Electromyography signal analysis and control”.</li>
+     </ol>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading7">
+                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">Anuradha Verma</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse7" class="accordion-collapse  collapse " aria-labelledby="heading7" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><ol>
+     <li>National Conference on “Influence of Spacer and δ-doped layer on InP/InGaAs npn HBT ” presented in 3rd National Conference on Device and Circuit organized by IEEE ED-NIST Student Chapter.</li>
+     <li>International Conference on “Comparison of Current Gain behavior of InP based SHBT and DHBT”organised by Recent Advancement in Communication System and Data Engineering, RVSCET Jamshedpur. The paper was review and recommended to publish in IJRETS issn 2454-1915, Volume vi, Issue X.</li>
+     <li>Conference on “Effect of Spacer and δ-doped layer on SiGe HBT for High frequency application” presented in 3rd National Conference on Device and Circuit organized by IEEE ED-NIST Student Chapter.</li>
+     <li>International Conference on LPG GAS DETECTION SYSTEM USING GSM module” organized by organized by IEEE in computer science department of RVSCET Jamshedpur</li>
+     </ol>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading8">
+                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">Rahul Ranjan</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse8" class="accordion-collapse  collapse " aria-labelledby="heading8" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><ol>
+     <li><strong>Rahul Ranjan</strong>, Dr. A Kumar, Dr. R.N.Panda,“A novel design for arresting power theft by intelligent use of embedded circuitry” presented in national conference on recent advancement in communication system and data engineering by IJRETS.</li>
+     <li><strong>Rahul Ranjan</strong>, Dr. A Kumar, A.P.Sinha “ E-waste hazard for health and environment” presented in national conference on environmental issues: protection, conservation and management.</li>
+     </ol>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading9">
+                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="true" aria-controls="collapse9">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">Prof. Shantimoy Mondal</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse9" class="accordion-collapse  collapse " aria-labelledby="heading9" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><ul>
+     <li>Susmita Biswas, Chandan K. Ghosh, Santimoy Mandal, Goffar A. Sarkar, Soumen Banerjee and Durbadal Mandal (2019), “Suppression of Higher Order Modes of a Two Element Microstrip Array Using Open-ended Stubs” Progress In Electromagnetics Research Letters, Vol.82, 121-128. (PIER Letter). Doi: 10.2528/PIERL18112108. (ESCI)</li>
+     <li>Susmita Biswas, Chandan K. Ghosh, Soumen Banerjee, Santimoy Mandal and Durbadal Mandal (2020), “High port Isolation of a Dual Polarized microstrip antenna array using DGS” Journal of Electromagnetic Waves and Application, Vol.34, Issue 6.(Taylor &amp; Francis). DOI:10.1080/09205071.2020.1736647.(SCI)</li>
+     <li>Mandal, Santimoy, Ghosh, C.K.(2021) Low Mutual Coupling of Microstrip Antenna Array Integrated with Dollar Shaped Resonator. Wireless Pers Commun 119, 777–789 (2021). https://doi.org/10.1007/s11277-021-08237-1.(SCI)</li>
+     <li>Mandal, Santimoy, &amp; Ghosh, C. K. (2022). Mutual coupling reduction in a patch antenna array based on planar frequency selective surface structure. RadioScience, 57, e2021RS007392. https://doi.org/10.1029/2021RS007392. (SCI).</li>
+     <li>Mandal, Santimoy, De, Arnab and Ghosh, Chandan Kumar. (2022) “Design and performance analysis of a compact, wideband dual polarized antenna for WLAN &amp; WiMAX applications” Frequenz, vol., no. https://doi.org/10.1515/freq-2021-0298. (SCI).</li>
+     <li>Swati Bhattacharjee, Santimoy Mandal, Chandan Kumar Ghosh and Soumen Banerjee, Senior Member, IEEE. (2022). “Reduction of Mutual Coupling and Cross-Polarization of Microstrip MIMO Antenna using Electromagnetic Soft Surface (EMSS)”. In Radio Science journal (Wiley). https://doi.org/10.1029/2021RS007377. (SCI).</li>
+     <li>Santimoy Mandal and Chandan Kumar Ghosh.(2023) “Design and Analysis of a Coupled-Feed, Reconfigurable Antenna for 4G LTE Communication System” Communicated in International Journal of Microwave and Wireless Technologies, Cambridge University Press.(SCI).</li>
+     <li>Santimoy Mandal and Chandan Kumar Ghosh,(2021) “Design of a Coupled-Feed with Ground Plane Slots Antenna for LTE Mobile Phones”, BCREC Engineering &amp; Science Transaction, (BEST).</li>
+     <li>Santimoy Mandal, Chandan Kumar Ghosh, Swati Bhattacharjee, Rituparna chatterjee, Rohit Chouhan, (2022).“ Design of a low profile, wideband dual polarized antenna for base station application”, BCREC Engineering &amp; Science Transaction, (BEST), 2020.</li>
+     </ul>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading10">
+                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="true" aria-controls="collapse10">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">STUDENTS</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse10" class="accordion-collapse  collapse " aria-labelledby="heading10" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><p style="font-weight: 400;">Final year engineering projects help you to explore and strengthen the understanding of fundamentals through the practical application of theoretical concepts. It is a platform where engineers can showcase their talent by doing innovative projects that strengthen their profile and increases the chance of employability. Engineers who not only doing engineering projects but learning from it stands apart from others and becomes productive engineers.</p>
+     <ol style="font-weight: 400;">
+     <li>“Grayscle image based steganography”</li>
+     <li>“Speech enhancement of audio signal using adaptive filter”</li>
+     <li>“Microneedles and optimization of its structure”</li>
+     <li>“Role of wireless sensorin forest fire prevention”</li>
+     <li>“Anti theft alarm system using GSM&amp;PIR sensor”</li>
+     <li>“To design a robuts watermark using transform”</li>
+     <li>“An embedded system based position traking system for vehicles”</li>
+     <li>“A ccidents prevention by using tilt sensor”</li>
+     <li>“Hybrid PV – Grid home Power Supply System”</li>
+     <li>“Efeicent Protection in AC Coaches from Fire &amp; Smoke”</li>
+     <li>“Retrofitted hybrige power&nbsp; system of renewable source for the electrification of urban areas”</li>
+     <li>“A novel technique to design cyclic combinational circuits”</li>
+     <li>“Machine Learning based Speaking System for mute people using Hand Gestures”</li>
+     <li>“IoT Based Automatic Industrial Fault Detecetion System”</li>
+     <li>“Low-Complexity Algorithms for Automatic detecion of Sleep Stages and Events for use in Wearable Eeg Systems”</li>
+     <li>“Flood Monitoring and Alerting System using IoT”</li>
+     <li>“IoT Based Irrigation &amp; Crop Field Monitoring System”</li>
+     <li>“Smart Health Monitoring System Using IOT”</li>
+     <li>“Air and Noise Pollution Monitoring System using IoT”</li>
+     <li>“AI Based Smart Mirror with inegrated IoT Along with Your Perosnal Assistant”</li>
+     <li>“Electronic Jacket For Women Safety”</li>
+     </ol>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                               <div class="accordion-item pg-inner-tab">
+                             <h2 class="accordion-header" id="heading11">
+                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="true" aria-controls="collapse11">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-220.png" alt="" class="img-fluid image pleft">
+                                   <h5 class=" blue-color blue-color">Sushanta Mohanty</h5>
+                                </button>
+                             </h2>
+                             <div id="collapse11" class="accordion-collapse  collapse " aria-labelledby="heading11" data-bs-parent="#accordionExample">
+                                                           <div class="accordion-body">
+                                   <p></p><p>S. Mahanty, Susmita, R. Choudhary, N. Kumari, A. Kumar and D. Kumari https://doi.org/10.1109/ICRTCST54752.2022.9782032 New all-optical gray code converter circuit using nonlinear switching techniques based micro-ring resonator,” 2021 4th International Conference</p>
+     <p></p>
+                                </div>
+                             </div>
+                          </div>
+                                            </div>
+                    </div>
+                                            
+                                                                                
+                    
+                    
+                    
+                      
+     
+     
+     
+     
+     
+     
+     
+                    
+                                                                                                                                                     
+                                                  <div class="tab-pane fade inactive" id="syllabus" role="tabpanel" aria-labelledby="syllabus-tab">
+                       <div class="text-center mb-4 ptb--30">
+                          <h2 class="blue-color"> Syllabus </h2>
+                          <p>Choose Best Degree Programs For Your Career</p>
+                       </div>
+                       <div class="pg-slider owl-carousel owl-theme owl-loaded owl-drag">
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;"><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-258.png" alt="" class="w-auto m-auto  img-fluid">
+                                   <h4> 1st Semester</h4>
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Vector-9.png" alt="" class="w-auto m-auto  img-fluid">
+                                   <div><a href="https://greatwordpresstools.com/rvs/wp-content/uploads/2023/03/syllabus_1st_semester-1580194544930.pdf" target="_blank" class="breen-text">Click Here to Download</a></div>
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-258.png" alt="" class="w-auto m-auto  img-fluid">
+                                   <h4> 2nd Semester</h4>
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Vector-9.png" alt="" class="w-auto m-auto  img-fluid">
+                                   <div><a href="https://greatwordpresstools.com/rvs/wp-content/uploads/2023/03/syllabus_2nd_semester-1580195006077.pdf" target="_blank" class="breen-text">Click Here to Download</a></div>
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-258.png" alt="" class="w-auto m-auto  img-fluid">
+                                   <h4> 3rd Semester</h4>
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Vector-9.png" alt="" class="w-auto m-auto  img-fluid">
+                                   <div><a href="https://greatwordpresstools.com/rvs/wp-content/uploads/2023/03/syllabus_3rd_semester-1580194643787.pdf" target="_blank" class="breen-text">Click Here to Download</a></div>
+
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-258.png" alt="" class="w-auto m-auto  img-fluid">
+                                   <h4> 4th Semester</h4>
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Vector-9.png" alt="" class="w-auto m-auto  img-fluid">
+                                   <div><a href="https://greatwordpresstools.com/rvs/wp-content/uploads/2023/03/syllabus_4th_semester-1580194771752.pdf" target="_blank" class="breen-text">Click Here to Download</a></div>
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-258.png" alt="" class="w-auto m-auto  img-fluid">
+                                   <h4> 5th Semester</h4>
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Vector-9.png" alt="" class="w-auto m-auto  img-fluid">
+                                   <div><a href="https://greatwordpresstools.com/rvs/wp-content/uploads/2023/03/syllabus-5-sem-1580195573565.doc" target="_blank" class="breen-text">Click Here to Download</a></div>
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-258.png" alt="" class="w-auto m-auto  img-fluid">
+                                   <h4> 6th Semester</h4>
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Vector-9.png" alt="" class="w-auto m-auto  img-fluid">
+                                   <div><a href="https://greatwordpresstools.com/rvs/wp-content/uploads/2023/03/6th-semester-1555582505395.docx" target="_blank" class="breen-text">Click Here to Download</a></div>
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Group-258.png" alt="" class="w-auto m-auto  img-fluid">
+                                   <h4>7th Semester</h4>
+                                   <img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/Vector-9.png" alt="" class="w-auto m-auto  img-fluid">
+                                   <div><a href="https://greatwordpresstools.com/rvs/wp-content/uploads/2023/03/7th-semester-1555582515057.docx" target="_blank" class="breen-text">Click Here to Download</a></div>
+                                </div>
+                             </div>
+                          </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
+                    </div>
+                                                                                
+                    
+                    
+                    
+                      
+     
+     
+     
+     
+     
+     
+     
+                    
+                                                                                                                                                     
+                                                                 <div class="tab-pane fade inactive" id="placement" role="tabpanel" aria-labelledby="placement-tab">
+                       <div class="text-center mb-4 ptb--30">
+                          <h2 class="blue-color">  </h2>
+                          <p> </p>
+                       </div>
+                        <div class="text-center mb-4 pb--30">
+                          <img src="" alt="" class="w-auto m-auto  img-fluid">
+                       </div>
+                       <h5 class="blue-color">TRAINING &amp; PLACEMENT DETAILS (Batch- 2015-19)</h5>
+                       <div class="pg-slider owl-carousel owl-theme pb--50 owl-loaded owl-drag">
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                               
+                                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;"><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>Anjali Singh Shekhawat	</h5>
+                                   <p>Automotive Axles Limited</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>Rohan Singh	</h5>
+                                   <p>Automotive Axles Limited</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>HIMANSHU KUMAR GUPTA	</h5>
+                                   <p>East India Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>ABHISHEK KUMAR	</h5>
+                                   <p>East India Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>ROHIT KUMAR	</h5>
+                                   <p>East India Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>JASBIR SINGH VIRDHI	</h5>
+                                   <p>East India Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>ANIKET KUMAR	</h5>
+                                   <p>East India Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>SATYAM KUMAR	</h5>
+                                   <p>East India Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>SAHEV BIHARI	</h5>
+                                   <p>East India Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>RANJIT KUMAR YADAV	</h5>
+                                   <p>East India Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>SAILESH BURMAN	</h5>
+                                   <p>East India Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>SANDIP KUMAR SOY	</h5>
+                                   <p>East India Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>SAGAR KUMAR	</h5>
+                                   <p>East India Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>SAKSHI	</h5>
+                                   <p>JR GLOBAL GROUP OF COMPANIES</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>ROHAN KUMAR SINGH	</h5>
+                                   <p>JR GLOBAL GROUP OF COMPANIES</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>ANAND SINHA	</h5>
+                                   <p>JR GLOBAL GROUP OF COMPANIES</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>ANJALI SINGH	</h5>
+                                   <p>Pernnation Computer Solution (P.C. S. Pvt. Ltd.)</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>APURVA DUTTA	</h5>
+                                   <p>Rajcomm Communication Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>ROHIT KUMAR	</h5>
+                                   <p>Rajcomm Communication Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>SMRITI KUMARI	</h5>
+                                   <p>TATA STEEL LTD</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>PALLAVI KUMAR</h5>
+                                   <p>iB Arts Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>ADITYA AMAN</h5>
+                                   <p>Teamcognito Solutions Pvt. Ltd. </p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>SUDHANSU GUPTA </h5>
+                                   <p>Vardhman requirters (Tosha International)</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>AKANKSHA BHARDWAJ</h5>
+                                   <p>Agami Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>UTTAM KUMAR DAS</h5>
+                                   <p>Rancom Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>ADITYA AMAN</h5>
+                                   <p>Rancom Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>AKSHAY KUMAR MAHATO</h5>
+                                   <p>Rancom Technologies Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>MAHIMA KUMARI</h5>
+                                   <p>Verzeo</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>ANURAG KUMAR MISHRA</h5>
+                                   <p>Nathcorp</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>KHUSHBOO KUMARI</h5>
+                                   <p>Nathcorp</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>PURSHOTAM KUMAR</h5>
+                                   <p>ARF</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>SHRUTI SINGH</h5>
+                                   <p>ARF</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>PRITY MAHATO</h5>
+                                   <p>ARF</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>BHOLANATH PATRA</h5>
+                                   <p>Mphasis Limited</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>KRITIKA KUMARI</h5>
+                                   <p>Mphasis Limited</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>MODIT BARLA</h5>
+                                   <p>Mphasis Limited</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>TATHAGAT BHARDWAS</h5>
+                                   <p>Mphasis Limited</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>RAHUL RAJ</h5>
+                                   <p>TCS</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>RASHMI LAKRA</h5>
+                                   <p>Zenith Forge Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>RAJNISH KUMAR </h5>
+                                   <p>Zenith Forge Pvt. Ltd.</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>MD ASHIF ASHFAQUE</h5>
+                                   <p>Switching AVO Electro Power Ltd. (H O)</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div><div class="owl-item"><div class="item">
+                             <div class="pg-tab">
+                                <div class="pg-inner-tab">
+                                   <img src="" alt="" class="w-auto m-auto  img-fluid"><br>
+                                   <h5>SUMIT ANAND</h5>
+                                   <p>Capgemini</p>
+                                   <!--<div><a href="" class="breen-text">Click Here to Download</a></div>-->
+                                </div>
+                             </div>
+                          </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
+                       <h5 class="blue-color"></h5>
+                       <div class="pg-slider owl-carousel owl-theme pb--50 owl-loaded owl-drag">
+                                            <div class="owl-stage-outer"><div class="owl-stage"></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
+                    </div>
+                                                                 
+                    
+                    
+                    
+                      
+     
+     
+     
+     
+     
+     
+     
+                    
+                                                                                                                                                     
+                                                                                <div class="tab-pane fade inactive" id="news-event" role="tabpanel" aria-labelledby="news-event-tab">
+                       <div class="row justify-content-center">
+                          <div class="col-md-12 text-center">
+                             <h2 class="blue-color">RVS Placement</h2>
+                             <p>Top Company Job Offers </p>
+                          </div>
+                                               <div class="row placement-grid">
+                                                     <div class="col-md-3 mb-4">
+                                <div class="placement-member">
+                                   <div class="img-view "><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/04/eventimg3-1.jpg" alt="" class="img-fluid w-100"></div>
+                                   <div class="deatils-view  p-3 bg-white">
+                                      <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> April 10, 2023 </div>
+                                      <h5 class="blue-color">INDUSTRIAL VISIT</h5>
+                                      <div><a href="https://www.rvscollege.ac.in/?post_type=post&amp;p=2236" class="green-btn btn">View Details &gt;</a></div>
+                                   </div>
+                                </div>
+                             </div>
+                                                     <div class="col-md-3 mb-4">
+                                <div class="placement-member">
+                                   <div class="img-view "><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/04/eventimg2-1.jpg" alt="" class="img-fluid w-100"></div>
+                                   <div class="deatils-view  p-3 bg-white">
+                                      <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i>  </div>
+                                      <h5 class="blue-color">Seminar/Webinar/Expert Talk &amp; Activities Organized:</h5>
+                                      <div><a href="https://www.rvscollege.ac.in/?post_type=post&amp;p=2206" class="green-btn btn">View Details &gt;</a></div>
+                                   </div>
+                                </div>
+                             </div>
+                                                     <div class="col-md-3 mb-4">
+                                <div class="placement-member">
+                                   <div class="img-view "><img src="https://www.rvscollege.ac.in/wp-content/uploads/2021/03/placement-drive-by-teqfocus-1624437167669.png" alt="" class="img-fluid w-100"></div>
+                                   <div class="deatils-view  p-3 bg-white">
+                                      <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> March 2, 2023 </div>
+                                      <h5 class="blue-color">Placement Drive by Teqfocus</h5>
+                                      <div><a href="https://www.rvscollege.ac.in/?post_type=post&amp;p=23" class="green-btn btn">View Details &gt;</a></div>
+                                   </div>
+                                </div>
+                             </div>
+                                                     <div class="col-md-3 mb-4">
+                                <div class="placement-member">
+                                   <div class="img-view "><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/3.png" alt="" class="img-fluid w-100"></div>
+                                   <div class="deatils-view  p-3 bg-white">
+                                      <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July 6, 2021 </div>
+                                      <h5 class="blue-color">Placement Drive by Mindtree</h5>
+                                      <div><a href="https://www.rvscollege.ac.in/?post_type=post&amp;p=28" class="green-btn btn">View Details &gt;</a></div>
+                                   </div>
+                                </div>
+                             </div>
+                                                     <div class="col-md-3 mb-4">
+                                <div class="placement-member">
+                                   <div class="img-view "><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/4.png" alt="" class="img-fluid w-100"></div>
+                                   <div class="deatils-view  p-3 bg-white">
+                                      <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July 1, 2021 </div>
+                                      <h5 class="blue-color">Placement Drive by Capgemini</h5>
+                                      <div><a href="https://www.rvscollege.ac.in/?post_type=post&amp;p=31" class="green-btn btn">View Details &gt;</a></div>
+                                   </div>
+                                </div>
+                             </div>
+                                                     <div class="col-md-3 mb-4">
+                                <div class="placement-member">
+                                   <div class="img-view "><img src="https://www.rvscollege.ac.in/wp-content/uploads/2021/06/5.png" alt="" class="img-fluid w-100"></div>
+                                   <div class="deatils-view  p-3 bg-white">
+                                      <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> June 8, 2021 </div>
+                                      <h5 class="blue-color">RVSCET Alumna Cracks BPSC Examination</h5>
+                                      <div><a href="https://www.rvscollege.ac.in/?post_type=post&amp;p=34" class="green-btn btn">View Details &gt;</a></div>
+                                   </div>
+                                </div>
+                             </div>
+                                                     <div class="col-md-3 mb-4">
+                                <div class="placement-member">
+                                   <div class="img-view "><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/6.png" alt="" class="img-fluid w-100"></div>
+                                   <div class="deatils-view  p-3 bg-white">
+                                      <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> June 7, 2021 </div>
+                                      <h5 class="blue-color">Placement Drive by Accenture</h5>
+                                      <div><a href="https://www.rvscollege.ac.in/?post_type=post&amp;p=38" class="green-btn btn">View Details &gt;</a></div>
+                                   </div>
+                                </div>
+                             </div>
+                                                     <div class="col-md-3 mb-4">
+                                <div class="placement-member">
+                                   <div class="img-view "><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/7.png" alt="" class="img-fluid w-100"></div>
+                                   <div class="deatils-view  p-3 bg-white">
+                                      <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> June 1, 2021 </div>
+                                      <h5 class="blue-color">Placement Drive by TCS</h5>
+                                      <div><a href="https://www.rvscollege.ac.in/?post_type=post&amp;p=42" class="green-btn btn">View Details &gt;</a></div>
+                                   </div>
+                                </div>
+                             </div>
+                                                     <div class="col-md-3 mb-4">
+                                <div class="placement-member">
+                                   <div class="img-view "><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/8.png" alt="" class="img-fluid w-100"></div>
+                                   <div class="deatils-view  p-3 bg-white">
+                                      <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> May 18, 2021 </div>
+                                      <h5 class="blue-color">Placement Drive by SaIntellect</h5>
+                                      <div><a href="https://www.rvscollege.ac.in/?post_type=post&amp;p=45" class="green-btn btn">View Details &gt;</a></div>
+                                   </div>
+                                </div>
+                             </div>
+                                                     <div class="col-md-3 mb-4">
+                                <div class="placement-member">
+                                   <div class="img-view "><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/9.png" alt="" class="img-fluid w-100"></div>
+                                   <div class="deatils-view  p-3 bg-white">
+                                      <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> May 5, 2021 </div>
+                                      <h5 class="blue-color">Placement Drive by Zyeta 2gethr</h5>
+                                      <div><a href="https://www.rvscollege.ac.in/?post_type=post&amp;p=48" class="green-btn btn">View Details &gt;</a></div>
+                                   </div>
+                                </div>
+                             </div>
+                                                     <div class="col-md-3 mb-4">
+                                <div class="placement-member">
+                                   <div class="img-view "><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/10.png" alt="" class="img-fluid w-100"></div>
+                                   <div class="deatils-view  p-3 bg-white">
+                                      <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> April 16, 2021 </div>
+                                      <h5 class="blue-color">Placement Drive by MindEdge</h5>
+                                      <div><a href="https://www.rvscollege.ac.in/?post_type=post&amp;p=51" class="green-btn btn">View Details &gt;</a></div>
+                                   </div>
+                                </div>
+                             </div>
+                                                     <div class="col-md-3 mb-4">
+                                <div class="placement-member">
+                                   <div class="img-view "><img src="https://www.rvscollege.ac.in/wp-content/uploads/2023/03/11.png" alt="" class="img-fluid w-100"></div>
+                                   <div class="deatils-view  p-3 bg-white">
+                                      <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> April 15, 2021 </div>
+                                      <h5 class="blue-color">Placement Drive by Team Cognito</h5>
+                                      <div><a href="https://www.rvscollege.ac.in/?post_type=post&amp;p=55" class="green-btn btn">View Details &gt;</a></div>
+                                   </div>
+                                </div>
+                             </div>
+                                                  </div>
+                       </div>
+                    </div>
+                                                  
+                    
+                    
+                    
+                      
+     
+     
+     
+     
+     
+     
+     
+                    
+                                                                                                                                                     
+                                                                                               <div class="tab-pane fade inactive" id="notes" role="tabpanel" aria-labelledby="notes-tab">
+                       <div class="row justify-content-center ptb--50">
+                          <div class="col-md-12 text-center ">
+                             <h2 class="blue-color">Notes</h2>
+                             <!--<p>Top Company Job Offers </p>-->
+                          </div>
+                          <div class="col-md-10 pb--50" "="">
+                             <p>Data Not Found!!</p>
+                          </div>
+                       </div>
+                    </div>
+                                   
+                    
+                    
+                    
+                      
+     
+     
+     
+     
+     
+     
+     
+                    
+                                    
+                 </div>
+              </div>
+           
+     </section>
+
+     
+
+
+
+      <section class="copyright dark--blue">
+        <div class="container3">
+            <div class="row">
+                <div class="col-md-4  p-3">
+                    <small>RVS college -  © 2023 All Rights Reserved</small>
+                </div>
+                <div class="col-md-4 text-center p-3 copyright-menu">
+                    <ul id="menu-copyright" class="list-inline"><li id="menu-item-1690" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1690"><a href="about.html">About</a></li>
+      <li id="menu-item-1688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1688"><a href="https://www.rvscollege.ac.in/privacy/">Privacy Policy</a></li>
+      <li id="menu-item-1687" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1687"><a href="https://www.rvscollege.ac.in/term-of-use/">Term Of Use</a></li>
+      <li id="menu-item-1689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1689"><a href="https://www.rvscollege.ac.in/refund-policy/">Refund Policy</a></li>
+      </ul>	
+                 
+                </div>
+                <div class="col-md-4 text-end p-3">
+                    <small>Made with ♥ by Sushant Shekhar</small>
+                </div>
+                
+            </div>
+        </div>
+      </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+   >
+   <script src="preloader.js"></script>
+  </body>
+</html>

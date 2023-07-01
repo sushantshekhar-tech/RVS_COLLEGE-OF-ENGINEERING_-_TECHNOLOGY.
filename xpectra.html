@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Xpectra-The Media Club of RVSCET</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="preloader1.css">
+    <link rel="shortcut icon" href="xpectra white logo glow.png" type="image/x-icon">
+  </head>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+
+    .title{
+      text-align: center;
+      font-style: oblique;
+    }
+    .elements{
+      display: flex;
+    }
+
+    
+
+.right{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    background-color:  rgb(145, 32, 251);
+    color: aliceblue;
+    top: 5vh;
+    right: 20.5vh;
+    margin: auto;
+    height: 75vh;
+    width: 63vh;
+    text-align: center;
+  
+border-radius: 25px;
+    box-shadow: 2px 3px 15px black;
+}
+.right h1{
+    font-size: 30px;
+    position: relative;
+    top: 3vh;
+text-align: left;
+}
+.formcontainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 4vh;
+}
+/* bdr-top-left{
+    border-top-left-radius: 25px ;
+}
+bdr-top-right{
+    border-top-right-radius: 25px ;
+}
+bdr-bottom-right{
+    border-bottom-right-radius: 25px ;
+}
+bdr-bottom-left{
+    border-bottom-left-radius: 25px ;
+} */
+div.formcontainer input{
+    text-align: center;
+    width:52vh;
+    height: 5vh;
+    margin: 2px;
+    color: white;
+    background-color:  rgb(145, 32, 251);
+    border: 2px solid white;
+    border-radius: 25px;
+}
+input::placeholder { 
+    color: rgb(236, 226, 226);  
+  }
+  div.formcontainer textarea{
+    text-align: center;
+    margin:5px;
+    background-color:  rgb(145, 32, 251);
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+
+  }
+  textarea::placeholder { 
+    color: rgb(236, 226, 226);  
+  }
+  button{
+    background-color: aliceblue;
+    color: rgb(145, 32, 251);
+    border-radius: 25px;
+    width: 15vh;
+    height: 5vh;
+    border: none;
+    margin: 5px;
+  }
+  .captcha{
+    display: flex;
+  }
+  .preview{
+    background-color:  rgb(145, 32, 251);
+    border: 2px dashed white;
+    margin: 2px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    width:52vh;
+    height: 5vh;
+    line-height: 5vh;
+    letter-spacing: 8px;
+    font-family: monospace;
+    position: relative;
+    left: 5vh;
+
+  }
+  .captcha input{
+    position: relative;
+    left: 5vh;
+    height: 10vh;
+  }
+  button.refresh{
+    position: relative;
+ right: 4vh;
+ bottom: 3.5px;
+ height: 5.8vh;
+  }
+  .container3{
+    display: flex;
+    background-color: rgb(11, 6, 50);
+    color: aliceblue;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 25vh;
+  }
+  h2{
+    color: navy;
+  }
+  
+  button:hover{
+    background-color: antiquewhite;
+    border: 2px solid white;
+   
+  }
+  
+    @media screen and (max-width:700){
+      .hobbies{
+   flex-direction: column;
+    }
+    }
+  </style>
+  <body>
+    <div class="preloader"></div>
+
+    <nav class="navbar sticky-top navbar-expand-lg  " style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+          <a class="navbar-brand" >
+              <img src="/favicon.png" alt="LOGO" width="30" height="24">
+            </a>
+        <a class="navbar-brand mb-0 h1" href="#">RVS COLLEGE OF ENGINEERING AND TECHNOLOGY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-end  ">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="studentcorner.html">Student Corner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Under Graduation Programs
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="CSE.html">Computer Science Engineering (CSE)</a></li>
+                <li><a class="dropdown-item" href="ECE.html">Electronics and Communication Engineering (ECE)</a></li>
+                <li><a class="dropdown-item" href="CE.html">Civil Engineering (CE)</a></li>
+                <li><a class="dropdown-item" href="EEE.html"> Electrical and Electronic Engineering (EEE)</a></li>
+                <li><a class="dropdown-item" href="ME.html">Mechanical Engineering (ME)</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Bachelor's in Computer Application (BCA)</a></li>
+                <li><a class="dropdown-item" href="#">Bachelor's of business Administration (BBA)</a></li>
+              
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Post Graduation Programs
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="PG.html">M.tech in Computer Science Engineering</a></li>
+                <li><a class="dropdown-item" href="PG.html">Masters of Computer Application</a></li>
+             
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Diploma
+              </a>
+              <ul class="dropdown-menu">
+            
+                <li><a class="dropdown-item" href="diploma.html">Civil Engineering(CE)</a></li>
+                <li><a class="dropdown-item" href="diploma.html"> Electrical and Electronic Engineering(EEE)</a></li>
+                <li><a class="dropdown-item" href="diploma.html">Mechanical Engineering(ME)</a></li>
+             
+          
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <section>
+      <div class="item">
+        <img src="https://www.dbcdharmapuri.edu.in/common/uploads/ckeditor/1676975536_MEDIA%20CLUB.JPG" alt="image" width="100%" height="25%" class="img-fluid">
+        <div class="container">
+           <div class="row m-0">
+              <div class="banner-data color-white">
+                 <div class="tp-caption"></div>
+                 <div class="tp-title "></div>
+                 <div class="banner-btn">
+                    <a href="" target="_blank" class="green-btn btn"></a>
+                   <!-- <a href="" class="transparent-btn btn"></a>-->
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+    </section>
+
+
+      
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item ">Student Corner</li>
+          <li class="breadcrumb-item active" aria-current="page">Xpectra-The Media Club of RVSCET</li>
+          
+        </ol>
+      </nav>
+
+
+
+      <div class="container">
+        <div class="row featurette my-5 d-flex box">
+          <div class="col-md-7">
+           
+        <h3>Introducing Xpectra - The Media Club of RVSCET!</h3>
+           
+            <p>
+
+              Xpectra is a vibrant community of creative enthusiasts at RVSCET who are passionate about all things media. Our club serves as a platform for students to explore their talents, collaborate, and express themselves through various forms of media.
+              
+              Through Xpectra, we aim to bring together budding photographers, filmmakers, writers, designers, and artists, fostering a dynamic environment where ideas flourish and skills are honed. Whether you have a knack for capturing breathtaking visuals, crafting compelling stories, or designing eye-catching graphics, Xpectra welcomes all media enthusiasts with open arms.
+              
+              Our club organizes a range of engaging activities and workshops throughout the year. From photography expeditions and film screenings to writing competitions and graphic design tutorials, we offer diverse opportunities for members to learn, grow, and showcase their talents.
+              
+              Xpectra believes in the power of collaboration and teamwork. We encourage our members to work together on projects, pooling their skills and expertise to create impactful media content. We also provide a platform for networking with professionals in the media industry, offering valuable insights and guidance to help students navigate their chosen paths.
+              
+              Whether you're a beginner eager to learn the ropes or an experienced media aficionado looking to expand your horizons, Xpectra has something to offer you. Join us, and together, let's unleash the full potential of media and creativity at RVSCET!</p> 
+          </div>
+          <div class="col-md-5">
+            <img
+              class="img-fluid"
+              src="xpectra white logo glow.png"
+              width="500"
+              height="1000"
+              alt="my picture"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row featurette my-5 d-flex">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            
+    Prof. Abhilash Ghosh (Head of Xpectra)
+          </h2>
+          <p class="lead">
+            The Xpectra Team is guided by prof Abhilash Ghosh of Electrical and Electronics branch.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            class="img-fluid"
+            src="abhilash sir.jpg"
+            width="500"
+            height="1000"
+            alt="my Logo"
+          />
+        </div>
+      </div>
+
+<div class="title">
+
+  <h1>Positions Offered</h1>
+</div>
+
+      <section class="elements">
+        <div class="col-lg-4">
+<img src="https://admin.tops-int.com/storage/webinar/icons/16602.jpg" class="rounded-circle" alt="" width="50%" height="
+75%">
+          <h2 class="fw-normal">Graphics Designing</h2>
+         
+        </div>
+        <div class="col-lg-4">
+<img src="data:image/jpeg;base64,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" class="rounded-circle" alt="" width="50%" height="
+75%">
+          <h2 class="fw-normal">Content Writing</h2>
+         
+        </div>
+        <div class="col-lg-4">
+<img src="https://expertphotography.b-cdn.net/wp-content/uploads/2020/07/social-media-for-photographers-follow-1.jpg" class="rounded-circle" alt="" width="50%" height="
+75%">
+          <h2 class="fw-normal">PhotoGraphy</h2>
+         
+        </div>
+        
+        
+        
+        
+        
+      </section>
+      <section class="elements">
+        <div class="col-lg-4">
+  <img src="https://d1hjkbq40fs2x4.cloudfront.net/2020-06-29/files/Videography.jpg" class="rounded-circle" alt="" width="50%" height="
+  75%">
+          <h2 class="fw-normal">VideoGraphy</h2>
+         
+        </div>
+        <div class="col-lg-4">
+  <img src="https://mydmi.imgix.net/v3blog/10-Video-Editing-Tools-for-Small-Business.jpg?crop=entropy&fit=crop&fm=jpg&h=1200&ixlib=php-3.3.1&q=50&w=1600&s=fab740f96abd57c24b054ad6e3fdd015" class="rounded-circle" alt="" width="50%" height="
+  75%">
+          <h2 class="fw-normal">Video Editing</h2>
+         
+ 
+        
+      </section>
+      <div class="title">
+
+        <h1>Contact Xpectra</h1>
+      </div>
+
+      <section class="contactform">
+
+        <div class="right bdr-bottom-right bdr-top-right">
+          <h1>Contact Us</h1>
+          <div class="formcontainer">
+          <form action="https://formspree.io/f/mwkdelyv" method="POST">
+                  <input type="text" name="first" placeholder="First Name" autocomplete="off" required><br>
+                  <input type="text" name="last" placeholder="Last Name" autocomplete="off" required><br>
+                  <input type="email" name="email" placeholder="Your email" autocomplete="off" required><br>
+                  <textarea name="Message" id="Message" cols="40" rows="8" placeholder="Your Message" autocomplete="off" required></textarea><br>
+                  <div class="preview"></div>
+                  <div class="captcha">
+                      <input type="text" id="captcha-form" placeholder="Enter Captcha">
+                      <button class="refresh"><i class="fa fa-refresh"></i></button>
+                  </div>
+                  <button class="submit" type="submit">Contact</button>
+              </form>
+          </div>
+      </div>
+ 
+
+
+      </section>
+
+      
+<section class="copyright dark--blue">
+  <div class="container3">
+      <div class="row">
+          <div class="col-md-4  p-3">
+              <small>RVS college -  © 2023 All Rights Reserved</small>
+          </div>
+          <div class="col-md-4 text-center p-3 copyright-menu">
+              <ul id="menu-copyright" class="list-inline"><li id="menu-item-1690" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1690"><a href="about.html">About</a></li>
+<li id="menu-item-1688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1688"><a href="https://www.rvscollege.ac.in/privacy/">Privacy Policy</a></li>
+<li id="menu-item-1687" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1687"><a href="https://www.rvscollege.ac.in/term-of-use/">Term Of Use</a></li>
+<li id="menu-item-1689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1689"><a href="https://www.rvscollege.ac.in/refund-policy/">Refund Policy</a></li>
+</ul>	
+           
+          </div>
+          <div class="col-md-4 text-end p-3">
+              <small>Made with ♥ by Sushant Shekhar</small>
+          </div>
+          
+      </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="preloader.js"></script>
+<script>
+  (function() {
+    let captchavalue = "";
+  
+    function generateCaptcha() {
+      let value = Math.random().toString(36).substring(2, 7);
+      captchavalue = value;
+    }
+  
+    function setCaptcha() {
+      let captchaHTML = captchavalue
+        .split("")
+        .map((char) => {
+          return `<span>${char}</span>`;
+        })
+        .join("");
+      document.querySelector(".preview").innerHTML = captchaHTML;
+    }
+  
+    function initCaptcha() {
+      generateCaptcha();
+      setCaptcha();
+    }
+  
+    initCaptcha();
+  
+    document.querySelector(".refresh").addEventListener("click", function() {
+      generateCaptcha();
+      setCaptcha();
+    });
+  
+    document.querySelector("form").addEventListener("submit", function(e) {
+      let inputCaptchaVal = document.querySelector("#captcha-form").value;
+      if (inputCaptchaVal === captchavalue) {
+        swal("", "Logging In!", "success");
+      } else {
+        swal("Invalid captcha");
+        e.preventDefault(); // Prevent form submission
+      }
+    });
+  })();
+  
+</script>
+
+  </body>
+</html>
